@@ -42,7 +42,7 @@ int main(){
 ### Even more arduino-like example:
 Also you could simply use `#define USE_ARDUINO_MAIN` somewhere in your files and simply implement the `void setup()` and `void loop()` functions as seen below.<br>
 But remember that you will need to link against a compiled version of `Arduino.cpp`.
-```cpp
+```Arduino
 #define USE_ARDUINO_MAIN
 
 using namespace Arduino;
