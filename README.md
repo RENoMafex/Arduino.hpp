@@ -62,3 +62,10 @@ void loop(){
 // 1200
 // ...
 ```
+To compile and build everything needed, you could also use either the `Makefile` or the `CMakeLists.txt`.<br><br>
+To use the `Makefile`, simply edit the top part of the `Makefile` and run `make` in the main project directory.<br><br>
+To use the `CMakeLists.txt`, simply edit the marked part of the `CMakeLists.txt` and run
+```bash
+mkdir build && cd build && cmake .. && cmake --build .
+```
+inside the main project directory.
