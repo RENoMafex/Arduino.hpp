@@ -1,7 +1,5 @@
-#ifdef USE_ARDUINO_MAIN
-#include <Arduino.hpp>
-
-void setup(), loop();
+#ifndef USE_ARDUINO_MAIN
+#include "Arduino.hpp"
 
 int main(){
 	setup();
