@@ -68,4 +68,5 @@ To use the `CMakeLists.txt`, simply edit the marked part of the `CMakeLists.txt`
 ```bash
 mkdir build && cd build && cmake .. && cmake --build .
 ```
-inside the main project directory.
+inside the main project directory.<br>
+If you use the `Makefile` or the `CMakeLists.txt`, you can simply throw `Arduino.cpp` into the SRC_DIR
