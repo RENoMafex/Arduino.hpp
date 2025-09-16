@@ -1,4 +1,4 @@
-#ifndef USE_ARDUINO_MAIN
+#ifdef USE_ARDUINO_MAIN
 #include "Arduino.hpp"
 
 int main(){
